@@ -11,7 +11,6 @@ public class Main {
         System.out.println(c);
          */
         Kalkulator calc = new Kalkulator();
-        calc.add(2, 5);
         System.out.println(calc.add(2,5));
     }
 
