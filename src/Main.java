@@ -18,11 +18,15 @@ public class Main {
         Kalkulator calc = new Kalkulator();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj pierwszą liczbę");
-        int firstVariable = scanner.nextInt();
+        int a = scanner.nextInt();
+        System.out.println("Podaj operację + - * /");
+        String znak = scanner.next();
         System.out.println("Podaj drugą liczbę");
-        int secondVariable = scanner.nextInt();
-        System.out.println("Wynik to " + calc.add(firstVariable, secondVariable));
-        System.out.println("Wynik to " + calc.sub(firstVariable, secondVariable));
+        int b = scanner.nextInt();
+        switch (znak) {
+            case "+":
+                System.out.println(calc.add(a,b));
+        }
 
 
     }
