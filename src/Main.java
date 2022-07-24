@@ -32,6 +32,7 @@ public class Main {
                 break;
             case "*":
                 System.out.println(calc.multiply(a, b));
+                break;
             case "/":
                 System.out.println(calc.div(a, b));
         }
