@@ -25,7 +25,15 @@ public class Main {
         int b = scanner.nextInt();
         switch (znak) {
             case "+":
-                System.out.println(calc.add(a,b));
+                System.out.println(calc.add(a, b));
+                break;
+            case "-":
+                System.out.println(calc.sub(a, b));
+                break;
+            case "*":
+                System.out.println(calc.multiply(a, b));
+            case "/":
+                System.out.println(calc.div(a, b));
         }
 
 
