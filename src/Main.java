@@ -22,6 +22,7 @@ public class Main {
         System.out.println("Podaj drugą liczbę");
         int secondVariable = scanner.nextInt();
         System.out.println("Wynik to " + calc.add(firstVariable, secondVariable));
+        System.out.println("Wynik to " + calc.sub(firstVariable, secondVariable));
 
 
     }
