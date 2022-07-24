@@ -5,9 +5,13 @@ public class Kalkulator {
     3. odejmowanie
      */
     public int add(int a, int b){
-        int c;
-        c = a + b;
-        return c;
+        return a + b;
+    }
+    public int sub(int a, int b){
+        return a - b;
+    }
+    public int multiply(int a, int b){
+        return a * b;
     }
     }
 
